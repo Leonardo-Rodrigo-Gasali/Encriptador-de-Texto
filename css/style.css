@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    margin: auto;
+    margin: 0 auto;
     width: 960px;
     height: 650px;
     padding: 5px;
@@ -29,6 +29,9 @@ body{
     float: inherit;
 }
 
+.encriptador{
+    padding: 170px 0;
+}
 .container .left{
     float: left;
     width: 70%;
@@ -260,9 +263,19 @@ footer{
     .container .left-button #btn-encriptar, #btn-desencriptar{
         font-size: 14px;
     }
+    #btn-encriptar{
+        padding: 20px 0;
+    }
+    #btn-desencriptar{
+        padding: 20px 0;
+    }
     footer{
         position: relative;
         position: center;
         margin-top: 250px;
     }
+}
+
+@media (max-width: 320px){
+
 }
